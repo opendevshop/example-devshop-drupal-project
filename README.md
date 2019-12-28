@@ -34,7 +34,7 @@ all files not excluded by the .gitignore file.
 ## What does this template do?
 
 - Adds a `composer drupal:upgrade` command as an alias for `composer update drupal/core webflo/drupal-core-require-dev symfony/* --with-dependencies`
-- Downgrades to drush 8. (I'm so sorry. Soon, I promise.)
+- Downgrades to Drush 8. (I'm so sorry. Soon, I promise. See [Issue #466](https://github.com/opendevshop/devshop/issues/466))
 - Adds aegir files to .gitignore.
 - Sets config.platform.php to 5.5 for greatest compatibility.
 - Adds a /tests folder with Drupal Behat Tests ready to go. (TODO)
